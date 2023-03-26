@@ -9,22 +9,6 @@ import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
 
 function App() {
 
-  const a = [
-    {
-      title:"akjsdn",
-      desc:"kajdn",
-      dDate:{
-          ddy:'2023',
-          dm:'121',
-          dyr:'121'
-      },
-      dTime:{
-        dhr:'12',
-        dmin:'232',
-      }
-    }
-  ]
-
   const initialTasks = localStorage.getItem('tasks')?
   JSON.parse(localStorage.getItem('tasks')):[]
 
